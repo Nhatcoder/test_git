@@ -25,23 +25,6 @@ git pull – kéo code mới về
 
 git fetch – lấy thông tin commit mới nhưng KHÔNG merge
 
-📌 2. Làm việc với branch
-hello
-
-git branch – list branch
-
-git branch <name> – tạo branch
-
-git checkout <branch> – chuyển branch
-
-git checkout -b <branch> – tạo + chuyển branch
-
-git merge <branch> – merge branch vào nhánh hiện tại
-
-git branch -d <branch> – xóa branch local
-
-git push origin --delete <branch> – xóa branch trên remote
-
 📌 3. Undo / sửa lỗi nhanh
 ✔ Bỏ thay đổi chưa add
 git restore <file>
@@ -52,19 +35,11 @@ git restore --staged <file>
 ✔ Quay về commit trước
 git reset --hard HEAD~1
 
-✔ Tạo commit mới để revert
+✔ Tạo commit 21321 mới để revert
 git revert <commit_id>
 
 ✔ Lấy lại file đã xóa
 git checkout HEAD -- <file>
-
-📌 4. Kết nối Git + GitLab/GitHub
-Cấu hình user:
-git config --global user.name "Your Name"
-git config --global user.email "you@example.com"
-Heloo ăâê
-Dùng Access Token (GitLab private repo):
-https://oauth2:<TOKEN>@gitlab.com/username/repo.git
 
 📌 5. Các lỗi Git hay gặp & cách sửa
 ❌ "Authentication failed"
@@ -86,6 +61,5 @@ https://oauth2:<TOKEN>@gitlab.com/username/repo.git
 
 git pull --rebase
 git push
-
 
 Nếu muốn mình làm một sheet PDF ôn Git toàn bộ để bạn lưu, mình làm luôn cho — hoặc bạn hỏi phần nào muốn ôn kỹ, mình giảng sâu + ví dụ thực tế. 🚀
