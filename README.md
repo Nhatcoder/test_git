@@ -27,20 +27,6 @@ git fetch – lấy thông tin commit mới nhưng KHÔNG merge
 
 
 📌 5. Các lỗi Git hay gặp & cách sửa
-❌ "Authentication failed"
-
-→ Sai token hoặc chưa add SSH key.
-
-❌ "fatal: not a git repository"
-
-→ Quên git init.
-
-❌ "Merge conflict"
-
-→ Mở file, sửa → git add . → git commit.
-
-❌ "Updates were rejected" (push không được)
-
 → Branch bị out-of-date
 → Fix:
 
