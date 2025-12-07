@@ -34,7 +34,7 @@ git restore --staged <file>
 
 ✔ Quay về commit trước
 git reset --hard HEAD~1
-
+12345
 ✔ Tạo commit 21321 mới để revert
 git revert <commit_id>
 
