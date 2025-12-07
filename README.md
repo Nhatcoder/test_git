@@ -26,6 +26,7 @@ git pull – kéo code mới về
 git fetch – lấy thông tin commit mới nhưng KHÔNG merge
 
 📌 2. Làm việc với branch
+hello
 
 git branch – list branch
 
@@ -61,7 +62,7 @@ git checkout HEAD -- <file>
 Cấu hình user:
 git config --global user.name "Your Name"
 git config --global user.email "you@example.com"
-
+Heloo ăâê
 Dùng Access Token (GitLab private repo):
 https://oauth2:<TOKEN>@gitlab.com/username/repo.git
 
