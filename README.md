@@ -25,21 +25,6 @@ git pull – kéo code mới về
 
 git fetch – lấy thông tin commit mới nhưng KHÔNG merge
 
-📌 3. Undo / sửa lỗi nhanh
-✔ Bỏ thay đổi chưa add
-git restore <file>
-
-✔ Bỏ thay đổi đã add (trong staging)
-git restore --staged <file>
-
-✔ Quay về commit trước
-git reset --hard HEAD~1
-
-✔ Tạo commit 21321 mới để revert
-git revert <commit_id>
-
-✔ Lấy lại file đã xóa
-git checkout HEAD -- <file>
 
 📌 5. Các lỗi Git hay gặp & cách sửa
 ❌ "Authentication failed"
